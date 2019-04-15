@@ -1,0 +1,3 @@
+a2ps cpuHeat.c -r --columns=2 --chars-per-line=100 --highlight-level=normal --pro=color -o cpuHeat_2-12-19.ps
+ps2pdf cpuHeat_2-12-19.ps cpuHeat_2-12-19.pdf
+

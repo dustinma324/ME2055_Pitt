@@ -1,0 +1,2 @@
+a2ps CFD_HW2.m -r --columns=2 --chars-per-line=100 --highlight-level=normal --pro=color -o CFD_HW2.ps
+ps2pdf CFD_HW2.ps CFD_HW2.pdf

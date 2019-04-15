@@ -1,0 +1,4 @@
+gcc cpuHeat.c -O2 -lm -o CPU.exe
+
+./CPU.exe 
+
