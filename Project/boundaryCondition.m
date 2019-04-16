@@ -11,7 +11,7 @@ end
 
 for i = 1:N
     w(N,i) = -2*(sF(N-1,i)/h^2)-2*Utop/h;   %north
-    w(1,i) = -2*sF(2,i)/h^2;%   +2*Utop*2/h;                %south
+    w(1,i) = -2*sF(2,i)/h^2   +2*Utop*5/h;                %south
 end
 
 end

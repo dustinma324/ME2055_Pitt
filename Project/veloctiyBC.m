@@ -2,7 +2,7 @@ function [u v] = veloctiyBC (u,v,sF,Utop,h,N)
 
 for i = 1:N
 u(N,i) = Utop;
-u(1,i) = 0; %Utop*2;
+u(1,i) = Utop*5;
 
 v(N,i) = 0;
 v(1,i) = 0;

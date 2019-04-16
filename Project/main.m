@@ -3,14 +3,14 @@
 clear all; close all; clc;
 
 %% Mesh Properties
-N = 60;
+N = 100;
 l = 1;
 Dim = [l l]; % X, Y
 
 [x y h startx starty] = meshGeneration(N,Dim);
 %% Time Properties
 %dt = 0.0000125; %re800
-dt = 0.00015;
+dt = 0.000015;
 
 %% Flow Properties
 Utop = 100;
@@ -43,7 +43,6 @@ timeTotal = 0;
 figure(1)    
 view([0 0 1]);
 colormap jet;
-
 
 while err > eps
     %iter
